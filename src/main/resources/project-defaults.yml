@@ -1,0 +1,13 @@
+swarm:
+  datasources:
+    jdbc-drivers:
+      org.postgresql:
+        driver-class-name: org.postgresql.Driver
+        xa-datasource-class-name: org.postgresql.xa.PGXADataSource
+        driver-module-name: org.postgresql
+    data-sources:
+      unibaveDS:
+        driver-name: org.postgresql
+        connection-url: jdbc:postgresql://ec2-54-235-101-91.compute-1.amazonaws.com:5432/d3d72j3aj2ob2t
+        user-name: hjulbfjjtyqtge
+        password: b88c5c114077482cf9df9a398c800d02d5994cdbcae0e6d730df3b4be3f218e9
